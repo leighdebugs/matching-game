@@ -53,7 +53,7 @@ function removeCardState() {
 	reset();
 	countRemoveState++;
 	// console.log("Number of matches: " + countRemoveState);
-	if (countRemoveState === 1) {
+	if (countRemoveState === 8) {
 		// console.log("this is where timer should stop");
 		clearTimer();
 	};
