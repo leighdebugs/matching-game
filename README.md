@@ -1,6 +1,6 @@
 # matching-game
 
-## This game has been deployed at [link](https://leighkristine.github.io/matching-game/)
+## This game has been deployed at [https://leighkristine.github.io/matching-game/](https://leighkristine.github.io/matching-game/)
 
 
 ## Features
