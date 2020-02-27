@@ -10,3 +10,5 @@
 - New Game reload button
 - Timer
 
+## To Do
+- Functionality to stop timer (in progress)
