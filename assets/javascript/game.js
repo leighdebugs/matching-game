@@ -4,7 +4,7 @@ var twoCards = false;
 var firstCard;
 var secondCard;
 var turns = 0;
-var countRemoveState = 0;
+// var countRemoveState = 0;
 
 // Timer
 var timer = 0;
@@ -51,16 +51,15 @@ function removeCardState() {
 	firstCard.removeEventListener('click', flipCard);
 	secondCard.removeEventListener('click', flipCard);
 	reset();
-	countRemoveState++;
+	// countRemoveState++;
 	// console.log("Number of matches: " + countRemoveState);
-	if (countRemoveState === 8) {
-		// console.log("this is where timer should stop");
-		clearTimer();
-	};
+	// if (countRemoveState === 8) {
+	// 	// console.log("this is where timer should stop");
+	// };
 
-function clearTimer() {
-	clearInterval(timer);
-	// console.log("clearTimer was run");
+// function clearTimer() {
+// 	clearInterval(timer);
+// 	// console.log("clearTimer was run");
 };
 
 
@@ -73,13 +72,12 @@ function flipBack() {
 		reset();
 	}, 1500);
 
-
 };
 
 function reset() {
 	[flipStatus, twoCards] = [false, false];
 	[firstCard, secondCard]  = [null, null];
-}
+};
 
 (function shuffle() {
   cards.forEach(function (card) {
